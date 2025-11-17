@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-
+//this program dublicates a text
 char *my_strdup(const char *src){
    size_t i = 0;
    while (src[i] != '\0') i++;
@@ -22,5 +22,6 @@ int main(void)
    printf("%s\n", dup);
    free(dup);
    return 0;
+
 
 }
